@@ -1,11 +1,13 @@
 import './App.scss';
 import Home from './components/Layout/Home'
-import './components/Layout/Home.Scss'
+import Header from './components/Layout/Header'
+import './components/Layout/Home.scss'
+import 'bootstrap'
 
 function App() {
   return (
     <div className="App">
-      
+      <Header />
       <Home />
 
     </div>
